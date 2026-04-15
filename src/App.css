@@ -1,0 +1,11 @@
+.stage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  min-height: 260px;
+}
+
+@media (max-width: 480px) {
+  .stage { min-height: 200px; }
+}
